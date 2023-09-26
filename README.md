@@ -53,7 +53,7 @@ Gallardo Dueñas Eduardo 21212215
 Gutierrez Martinez Ana Cristina 21211959
 Ortiz Garcia Nayeli 21210406
 Rodriguez Cruz Luis Fernando 21210421 
-Rojo Chaidez Donovan 21210404	
+Rojo Chaidez Donovan 21210424	
 	</p>
 
 </pre>
@@ -87,6 +87,7 @@ guardar resultados de cálculos, variables modificadas y datos de salida en la m
 puedan ser accedidos posteriormente o utilizados por otros componentes del sistema.
 Ejemplo: Supongamos que, después de realizar un cálculo en la CPU, deseamos almacenar el resultado en 
 una ubicación de memoria particular. La instrucción Store se usa de la siguiente manera:
+
 STORE R2, resultado; Almacena el contenido del registro R2 en la dirección de memoria 'resultado'
 
 
