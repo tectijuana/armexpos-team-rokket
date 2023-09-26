@@ -33,7 +33,7 @@ Departamento de Sistemas y Computación
 Ingeniería en Sistemas Computacionales
 
 Semestre:
-Junio - Diciembre 2023
+Agosto - Diciembre 2023
 
 Materia:
 Lenguajes de interfaz
