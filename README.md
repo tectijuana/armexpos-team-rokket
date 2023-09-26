@@ -70,6 +70,7 @@ cargar los datos y el registro de destino en la CPU donde se almacenarán los da
 Los datos se transfieren desde la memoria a la CPU a través del bus de datos. Uso común: Las instrucciones 
 Load son esenciales para cargar variables, valores, y datos de entrada desde la memoria 
 a la CPU, lo que permite a la CPU realizar cálculos y operaciones con esos datos.
+
 Ejemplo: Imaginemos que tenemos una variable llamada "valor" almacenada en una 
 dirección de memoria específica. 
 En lenguaje ensamblador, podemos cargar su valor en un registro de la CPU de la siguiente manera:
@@ -85,6 +86,7 @@ almacenarán los datos desde el registro de la CPU. Los datos se transfieren des
 la memoria a través del bus de datos. Uso común: Las instrucciones Store son fundamentales para 
 guardar resultados de cálculos, variables modificadas y datos de salida en la memoria, de modo que 
 puedan ser accedidos posteriormente o utilizados por otros componentes del sistema.
+		
 Ejemplo: Supongamos que, después de realizar un cálculo en la CPU, deseamos almacenar el resultado en 
 una ubicación de memoria particular. La instrucción Store se usa de la siguiente manera:
 
