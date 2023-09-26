@@ -187,6 +187,31 @@ con restricciones de energía, como dispositivos móviles.
 Thumb pueden almacenarse de manera más eficiente en la memoria caché, lo que puede 
 llevar a un mejor rendimiento en ciertos escenarios.
 
+EJEMPLO
+
+.thumb
+
+.global _start
+
+.section .data
+result: .word 0
+
+.section .text
+_start:
+    @ Cargar los valores en registros
+    ldr r0, =10       @ Cargar el valor 10 en r0
+    ldr r1, =20       @ Cargar el valor 20 en r1
+
+    @ Realizar la suma y almacenar el resultado en r2
+    add r2, r0, r1
+
+    @ Almacenar el resultado en la ubicación de memoria 'result'
+    str r2, [result]
+
+    @ Salir del programa
+    mov r7, #1         @ Código de llamada para salir
+    swi 0              @ Llamada al sistema para salir
+
 	</p>
 
 </pre>
